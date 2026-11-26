@@ -1,6 +1,6 @@
 import os
 from pathlib import Path
-LINE = "At dawn she laced her father's old work boots, now hers, and opened the shutter of the shop he had kept alive for thirty years."
+LINE = "For three years, Jae taught himself piano on a paper keyboard drawn on the kitchen table; at his first recital, on a real grand, he missed exactly one note — and grinned through all the rest."
 def main():
     os.umask(0o022)
     out_dir = Path(os.environ.get("MAKEFUN_OUTPUT_DIR") or "/output")
